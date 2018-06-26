@@ -1,7 +1,35 @@
-﻿@{
-    ViewData["Title"] = "About";
+﻿@using AzureSaturday.Helpers
+@{
+    ViewData["Title"] = "About " + Constants.Brand;
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
 
-<p>Use this area to provide additional information.</p>
+<h1>
+    About @Constants.Brand
+</h1>
+<h2>Our Mission</h2>
+<p>
+    @Constants.Brand is an all-volunteer organization that provides the tools and knowledge needed for groups and event leaders to organize and host @Constants.Brand Events. @Constants.Brand Events are FREE one-day events held in different cities around the world, featuring sessions from influential and respected Azure professionals.
+</p>
+<p>
+    At the local event level, @Constants.Brand Events:
+    <ul>
+        <li>Provide local Azure professionals and users with excellent training and networking opportunities</li>
+        <li>Encourage increased membership for the local user group</li>
+        <li>Help develop, grow, and encourage new speakers</li>
+    </ul>
+</p>
+<h2>
+    How It Started
+</h2>
+<p>
+    The AzureSaturday concept took shape in late 2016, with the first AzureSaturday event held in June 2017 in Munich. It grew from speakers who were speaking at SharePoint Saturdays and User Groups on diverse topics who felt there was enough need in the Azure community to warrant their own dedicated events. Furthermore, they felt there were other areas within the Azure community that had no avenue for training at the time, such as for End Users, Power Users, Project Managers, Business Analysts, etc. So they adopted some of the core tenets from the Code Camp manifesto (free, open to the public, in local areas, etc.) and adopted it to serve the greater Azure community. The @Constants.Brand Events organization continues to collect lessons from AzureSaturday events in an effort to continually improve the event model and encourage more events to take place all over the world. They also maintain and support the @Constants.Brand Events website with resources that reduce the time and effort required to plan and execute an event. <br />This website was greatly inspired by SharePoint Saturdays (<a href="http://www.spsevents.org">spsevents.org</a>) and the PASS SQLSaturday Community (<a href="http://sqlsaturday.com">sqlsaturday.com</a>).
+</p>
+<h2>
+    Management of @Constants.Brand Events
+</h2>
+<p>yup
+    The @Constants.Brand brand name, logo and website are managed by the AzureSaturday Events Board, which consists of a group of volunteers dedicated to preserving the initial concepts of AzureSaturday and encouraging the growth of @Constants.Brand Events around the world. They support organizers of local events by providing the resources for organizers to run a AzureSaturday event. Event organizers take full ownership of their events. They plan, organize, and operate the entire venture from start to finish. AzureSaturday provides the tools and coaching to make each AzureSaturday event successful and ensures all events stay true to the grassroots nature of AzureSaturday. All sponsorship funds collected by events go to the event. AzureSaturday believes AzureSaturdays have a tremendous, positive impact on the future of Azure and its user communities.
+</p>
+<p>
+    Interested in running an @Constants.Brand Event? Please check out our <a href="/Home/FAQ">FAQ page</a>!
+</p>
