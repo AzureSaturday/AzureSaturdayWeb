@@ -1,4 +1,4 @@
-﻿@using AzureSaturday.Helpers
+@using AzureSaturday.Helpers
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +12,7 @@
     
     <!-- PROD -->
     <environment exclude="Development">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
     </environment>
 </head>
 <body>
@@ -88,5 +88,5 @@
 
 
     @RenderSection("Scripts", required: false)
-<script type="text/javascript" src="/dist/polyfills.bundle.js"></script><script type="text/javascript" src="/dist/vendor.bundle.js"></script><script type="text/javascript" src="/dist/app.bundle.js"></script></body>
+<script type="text/javascript" src="/dist/polyfills.668dfe40e745eee309eb.bundle.js"></script><script type="text/javascript" src="/dist/vendor.668dfe40e745eee309eb.bundle.js"></script><script type="text/javascript" src="/dist/app.668dfe40e745eee309eb.bundle.js"></script></body>
 </html>
